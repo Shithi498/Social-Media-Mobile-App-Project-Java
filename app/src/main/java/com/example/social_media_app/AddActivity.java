@@ -54,7 +54,7 @@ public class AddActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add);
 
-        // Initialize UI elements
+        
         writePost = findViewById(R.id.writePost);
         postBtn = findViewById(R.id.postbtn);
         PselectImg = findViewById(R.id.PselectImg);
