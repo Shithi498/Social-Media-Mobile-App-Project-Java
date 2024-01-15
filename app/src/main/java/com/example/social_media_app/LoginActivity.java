@@ -33,7 +33,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        // Add this code in your LoginActivity's onCreate method or in your Application class.
+       
         FirebaseApp.initializeApp(this);
 
         auth = FirebaseAuth.getInstance();
@@ -46,7 +46,7 @@ public class LoginActivity extends AppCompatActivity {
         btn = findViewById(R.id.lbutton);
         register = findViewById(R.id.ltextView3);
 
-        // btn.setOnClickListener(view -> startActivity(new Intent(LoginActivity.this, MainActivity.class)));
+     
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -60,16 +60,7 @@ public class LoginActivity extends AppCompatActivity {
                        }
                    }
 
-                    //  @Override
-                    // public void onComplete(@NonNull Task<AuthResult> task) {
-                    //  if(task.isSuccessful()){
-                    // UserModel UserModel = new UserModel(email1, password);
-                    // String id = task.getResult().getUser().getUid();
-                    //database.getReference().child("User").child(id).setValue(UserModel);
-                    //Toast.makeText(LoginActivity.this, "User data saved", Toast.LENGTH_SHORT).show();
-
-                    //  }
-                    // }
+                 
                 });
             }
         });
