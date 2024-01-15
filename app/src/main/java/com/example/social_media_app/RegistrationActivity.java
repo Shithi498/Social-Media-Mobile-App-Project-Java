@@ -74,65 +74,13 @@ public class RegistrationActivity extends AppCompatActivity {
         });
 
 
-       // btn.setOnClickListener(new View.OnClickListener() {
-          //  @Override
-           // public void onClick(View v) {
-
-                //String name = Name.getText().toString();
-               // String Email = email.getText().toString();
-                //String Pass = pass.getText().toString();
-               // String cPass = Cpass.getText().toString();
+     
 
 
-               // if(name.length()==0 || Email.length()==0 || Pass.length()==0 || cPass.length()==0){
-                    //Toast.makeText(RegistrationActivity.this, "Please Enter name,email,password & Confirm password", Toast.LENGTH_SHORT).show();
-              //  }
-               // else if(Pass.compareTo(cPass)==0){
-                   // if(isValid(Pass)){
-
-
-                        //Toast.makeText(RegistrationActivity.this, "Registration successful", Toast.LENGTH_SHORT).show();
-                       // startActivity(new Intent(RegistrationActivity.this, LoginActivity.class));
-                  //  }
-                  //  else{
-                       // Toast.makeText(RegistrationActivity.this, "Invalid password", Toast.LENGTH_SHORT).show();
-                   // }
-               // }
-               // else{
-                   // Toast.makeText(RegistrationActivity.this, "Password & Confirm password aren't matched", Toast.LENGTH_SHORT).show();
-               // }
-
-
-            //}
-       // });
+              
 
 
     }
-    //public static boolean isValid(String pass){
-        //int f1=0,f2=0,f3=0;
-       // if(pass.length()<8){
-           // return false;
-       // }
-       // else{
-            //for(int p=0;p<pass.length();p++){
-               // if(Character.isLetter(pass.charAt(p))){
-                    //f1=1;
-               // }
-            //}
-           // for(int p=0;p<pass.length();p++){
-               // if(Character.isDigit(pass.charAt(p))){
-                //    f2=1;
-               // }
-           // }
-           // for(int p=0;p<pass.length();p++){
-              //  char c = pass.charAt(p);
-              // if(c>=33&&c<=46||c==64){
-                    //f3=1;
-               // }
-           // }
-           // if(f1==1 && f2==1 && f3==1){
-              //  return true;
-           // }
-           // return false;
-        //}
+   
+              
     }
