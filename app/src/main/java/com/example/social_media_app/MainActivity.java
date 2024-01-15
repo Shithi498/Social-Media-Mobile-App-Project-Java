@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
 
 
-    // Declare the constant resource IDs
+  
     public static final int HOME_ID=R.id.home;;
 
     public static final int NOTI_ID = R.id.noti;
@@ -37,13 +37,7 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigationView = findViewById(R.id.bottomNavi);
 
 
-           //button.setOnClickListener(new View.OnClickListener() {
-   // @Override
-    //public void onClick(View view) {
-       // startActivity(new Intent(MainActivity.this,RegistrationActivity.class));
-
-   // }
-//});
+         
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
